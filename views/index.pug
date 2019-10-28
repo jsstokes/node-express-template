@@ -3,3 +3,14 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  div.table-div
+    form(action="")
+      div.form-group
+        label(for="field1") Field 1
+        input.form-control(type='text' id="firstName" name='field1')
+      div.form-group
+        label(for="field2") Field Two
+        input.form-control(type='text' id="field2" name='field2')
+      div.form-group
+        button(type="submit") Submit Button
+        button(type="reset") Reset Button
