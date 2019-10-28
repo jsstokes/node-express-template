@@ -44,7 +44,7 @@ button {
  }
  .table-striped>tbody>tr:nth-child(even)>td {
    background-color: rgb(210, 255, 255); 
-   color: black; // Choose your own color here
+   color: black; 
  }
  .table-striped>tbody>tr:nth-child(odd)>th {
    background-color: #3C525B;

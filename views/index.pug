@@ -14,3 +14,12 @@ block content
       div.form-group
         button(type="submit") Submit Button
         button(type="reset") Reset Button
+  DIV.table-div
+    table.table.table-striped.table-bordered
+      tr
+        th First Name
+        th Last Name
+      each document in documents
+        tr
+          td #{document.firstName}
+          td #{document.lastName}
